@@ -1,0 +1,1 @@
+My name is Mudambi  Richard live at Kisumu studying at LakeHub Academy. Am 20 years old and i have just completed form six  I started coding in December in the following programing languages such as Python , Html5, Javascript ,and some frame works.
