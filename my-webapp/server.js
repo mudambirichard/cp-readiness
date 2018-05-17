@@ -1,5 +1,5 @@
 var express = require('express');
-var stormpath = require('express-stormpath');
+var stormpath = require( 'express-stormpath' );
 
 var app = express();
 
@@ -17,6 +17,7 @@ app.get('/', stormpath.getUser, function(req, res) {
 		title: 'Welcome'
 	});
 });
+app.use('/profile',stormpath.loginRequired,require('./profile')());
 
 app.on('stormpath.ready',function(){
 	console.log('Stormpath Ready');
